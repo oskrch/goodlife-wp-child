@@ -29,6 +29,7 @@
 <?php do_action( 'inicializa_banner' ); ?>
 
 <div class="main">	
+<script>Banners.initialize();</script>
 
 	<div id="wrapper" class="open">
 
