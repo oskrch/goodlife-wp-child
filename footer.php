@@ -125,7 +125,7 @@
 	 wp_footer(); 
 ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115028187-4"></script>
+<script sync src="https://www.googletagmanager.com/gtag/js?id=UA-115028187-4"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

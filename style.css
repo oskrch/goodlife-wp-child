@@ -37,10 +37,11 @@
 
 @media(max-width: 979px){
     .addSup{
-        display: none;
+       display: none;
     }
+    
     .Adv320Mobile{
-        display: block;
+         display: block; 
     }
 }
 
@@ -50,3 +51,4 @@
     margin: 20px auto 0 auto;
     text-align: center;
 }
+

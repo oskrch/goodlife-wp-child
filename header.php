@@ -20,7 +20,7 @@
 		wp_head(); 
 	?>
 
-	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+	<script sync='sync' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
 
 </head>
 
@@ -29,7 +29,9 @@
 <?php do_action( 'inicializa_banner' ); ?>
 
 <div class="main">	
+<script>writeBanner(0,"inicio","home","","smashmexico")</script>
 <script>Banners.initialize();</script>
+
 
 	<div id="wrapper" class="open">
 
